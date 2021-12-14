@@ -26,3 +26,7 @@ document.getElementById('nav4').onclick = function () {
 document.getElementById('nav5').onclick = function () {
   document.getElementById('check').checked = false
 }
+
+document.getElementById('nav6').onclick = function () {
+  document.getElementById('check').checked = false
+}
