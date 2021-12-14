@@ -24,7 +24,7 @@
   --h1-size: clamp(2.617rem, 1.907rem + 3.5498vw, 5.235rem);
   --h2-size: clamp(1.618rem, 1.1792rem + 2.1939vw, 3.236rem);
 
-  --normal-font: clamp(1rem, 0.7288rem + 1.3559vw, 2rem);
+  --normal-font: clamp(1rem, 0.7455rem + 1.2727vw, 1.7rem);
   --small-font: clamp(0.8rem, 0.6818rem + 0.5912vw, 1.236rem);
 }
 
@@ -90,7 +90,7 @@ h3 {
 p {
   font: var(--text-font);
   font-size: var(--normal-font);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a {
@@ -229,7 +229,7 @@ a {
 }
 
 /* ---------- Section: O nas ---------- */
-#onas h3 {
+#onas h2 {
   color: var(--red-color);
 }
 

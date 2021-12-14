@@ -174,4 +174,28 @@
   #oferta > div:nth-of-type(11) {
     display: none;
   }
+
+  .show-scroll {
+    bottom: 3.5rem;
+  }
+
+  section#aktualnosci {
+    padding-bottom: 5rem;
+  }
+
+  section#onas {
+    background: var(--light-color);
+  }
+
+  section#aktualnosci {
+    background: var(--light-color);
+  }
+
+  section#grafik {
+    background: var(--light-color);
+  }
+
+  section#cennik {
+    background: var(--light-color);
+  }
 }
