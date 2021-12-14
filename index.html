@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicons/favicon-16x16.png"
+    />
+
+    <!-- Main custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Navigation Menu-->
+    <link rel="stylesheet" href="assets/css/navigation.css" />
+
+    <!-- Backgrounds-->
+    <link rel="stylesheet" href="assets/css/backgrounds.css" />
+
+    <!-- Media queries-->
+    <link rel="stylesheet" href="assets/css/mediaQueries.css" />
+
+    <title>Fit & Fun</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#home">
+        <img src="assets/img/fitFunLogo.png" alt="" id="nav-logo" />
+      </a>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" id="check" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div class="flex">
+            <a href="#aktualnosci" class="nav-toggler flex" id="nav1"
+              >Aktualności</a
+            >
+            <a href="#cennik" class="nav-toggler flex" id="nav2">Cennik</a>
+            <a href="#onas" class="nav-toggler flex" id="nav3">O nas</a>
+            <a href="#grafik" class="nav-toggler flex" id="nav4">Grafik</a>
+            <a href="#kontakt" class="nav-toggler flex" id="nav5">Kontakt</a>
+            <a href="#home">
+              <img src="assets/img/fitFunLogo.png" id="nav-logo2" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="showcase">
+        <div class="video-container">
+          <video
+            src="assets/img/backgrounds/fitfun.webm"
+            autoplay=""
+            muted=""
+            loop=""
+          ></video>
+        </div>
+        <div class="flex">
+          <h1>Witamy w fit&nbsp;&&nbsp;fun!</h1>
+          <h3>Od 1991 spełniamy marzenia!</h3>
+          <div class="home-btn">
+            <a
+              href="https://fitfun-warszawa.cms.efitness.com.pl/Login/SystemLogin?returnurl=https://fitfun-warszawa.cms.efitness.com.pl/strefa-klienta"
+              class="btn home-btn"
+              >Dołącz&nbsp;do&nbsp;nas</a
+            >
+            <a
+              href="https://fitfun-warszawa.cms.efitness.com.pl/kup-karnet"
+              class="btn home-btn"
+              >Wybierz&nbsp;karnet</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="aktualnosci" class="grid">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </section>
+      <section id="cennik"></section>
+      <section id="onas"></section>
+      <section id="grafik"></section>
+      <section id="kontakt"></section>
+
+      <a href="#home" class="scrollup" id="scroll-up">
+        <i class="fas fa-angle-up fa-lg scrollup-icon"></i>
+      </a>
+    </main>
+    <footer class="none900">
+      <a href="tel:22-675-98-27">kontakt: 22-6759827</a>
+
+      <a href="mailto:  KLUB@FITFUN.PL">email: klub@fitfun.pl</a>
+
+      <a
+        href="https://www.facebook.com/fitnessfitfun/"
+        style="border-style: none"
+      >
+        Facebook:&nbsp;<i class="footer-icon fab fa-facebook-square fa-lg"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/fit_fun_fitness_/"
+        style="border-style: none"
+        >Instagram:&nbsp;<i
+          class="footer-icon fab fa-instagram-square fa-lg"
+        ></i
+      ></a>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- JQuery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- OWL Carousel -->
+    <script src="assets/js/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- OWL Carousel setup script-->
+    <script>
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        stagePadding: 0,
+        loop: true,
+        margin: 3,
+        nav: true,
+        center: true,
+        smartSpeed: 900,
+        navText: [
+          "<i class='car fa fa-chevron-left'></i>",
+          "<i class='car fa fa-chevron-right'></i>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+            stagePadding: 0,
+          },
+
+          380: {
+            items: 1,
+            stagePadding: 45,
+          },
+
+          500: {
+            items: 1,
+            stagePadding: 0,
+          },
+        },
+      })
+    </script>
+  </body>
+</html>

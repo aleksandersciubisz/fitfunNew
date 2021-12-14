@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px) {
+  .none900 {
+    display: none;
+  }
+
+  .menu-wrap .menu {
+    width: 50%;
+  }
+
+  .home-btn {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-wrap .menu {
+    width: 100%;
+  }
+}

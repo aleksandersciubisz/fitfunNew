@@ -1,0 +1,28 @@
+/* Sections backgrounds */
+section#home {
+  background: url(../img/backgrounds/b0.png) no-repeat center center/ cover;
+}
+
+section#aktualnosci {
+  background: url(../img/backgrounds/b1.jpg) no-repeat center center/ cover;
+}
+
+section#oferta {
+  background: url(../img/backgrounds/b2.jpg) no-repeat center center/ cover;
+}
+
+section#cennik {
+  background: url(../img/backgrounds/b3.jpg) no-repeat center center/ cover;
+}
+
+section#onas {
+  background: url(../img/backgrounds/b4.jpg) no-repeat center center/ cover;
+}
+
+section#grafik {
+  background: url(../img/backgrounds/b5.jpg) no-repeat center center/ cover;
+}
+
+section#kontakt {
+  background: url(../img/backgrounds/b6.jpg) no-repeat center center/ cover;
+}
