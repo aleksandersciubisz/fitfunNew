@@ -232,7 +232,7 @@ a {
 
 /* ---------- Section: O nas ---------- */
 
-#onas h2 {
+#onas h3 {
   color: var(--red-color);
 }
 
@@ -419,7 +419,7 @@ a {
 }
 
 /* ---------- Section: Cennik ---------- */
-#cennik h1 {
+#cennik h2 {
   color: var(--red-color);
 }
 
