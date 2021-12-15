@@ -230,6 +230,10 @@ a {
   flex-direction: row;
 }
 
+.data1 {
+  font-size: var(--h2-size);
+}
+
 /* ---------- Section: O nas ---------- */
 
 #onas h3 {
@@ -309,6 +313,11 @@ a {
   grid-row: 1/3;
 }
 
+.data2 {
+  color: var(--red-color);
+  font-size: clamp(1.3rem, 0.9455rem + 1.2727vw, 2rem);
+}
+
 /* ---------- Section: Aktualności ---------- */
 #aktualnosci a {
   color: var(--grey-color);
@@ -384,38 +393,28 @@ a {
 }
 
 #oferta > div:nth-of-type(5) {
-  grid-column: 1/5;
+  grid-column: 1/3;
   grid-row: 3;
 }
 
 #oferta > div:nth-of-type(6) {
-  grid-column: 1/3;
-  grid-row: 4;
+  grid-column: 3/5;
+  grid-row: 3;
 }
 
 #oferta > div:nth-of-type(7) {
-  grid-column: 3/5;
+  grid-column: 1/3;
   grid-row: 4;
 }
 
 #oferta > div:nth-of-type(8) {
-  grid-column: 1/3;
-  grid-row: 5;
+  grid-column: 3/5;
+  grid-row: 4;
 }
 
 #oferta > div:nth-of-type(9) {
-  grid-column: 3/5;
+  grid-column: 1/5;
   grid-row: 5;
-}
-
-#oferta > div:nth-of-type(10) {
-  grid-column: 1/3;
-  grid-row: 6;
-}
-
-#oferta > div:nth-of-type(11) {
-  grid-column: 3/5;
-  grid-row: 6;
 }
 
 /* ---------- Section: Cennik ---------- */
