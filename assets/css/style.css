@@ -23,8 +23,9 @@
 
   --h1-size: clamp(2.617rem, 1.907rem + 3.5498vw, 5.235rem);
   --h2-size: clamp(1.618rem, 1.1792rem + 2.1939vw, 3.236rem);
+  --h3-size: clamp(1rem, 0.7455rem + 1.2727vw, 1.7rem);
 
-  --normal-font: clamp(1rem, 0.7455rem + 1.2727vw, 1.7rem);
+  --normal-font: clamp(0.9rem, 0.7545rem + 0.7273vw, 1.3rem);
   --small-font: clamp(0.8rem, 0.6818rem + 0.5912vw, 1.236rem);
 }
 
@@ -84,7 +85,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--normal-font);
+  font-size: var(--h3-size);
   font-weight: bold;
 }
 
@@ -566,6 +567,34 @@ footer {
 /* Show Scroll Up*/
 .show-scroll {
   bottom: 1rem;
+}
+
+/* 2 nav buttons show on scroll*/
+.nav-btn {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 4rem;
+  top: -5rem;
+  padding: 0;
+  margin: 0.4rem 1rem 0.4rem 0.4rem;
+
+  z-index: 100;
+  transition: 0.4s;
+}
+
+.btn-nav {
+  width: auto;
+  height: 42px;
+  max-width: 11rem;
+
+  padding: 0.3rem 0.6rem;
+  font-size: var(--small-font);
+}
+
+/* Show 2 nav buttons*/
+.show-nav-btn {
+  top: -1rem;
 }
 
 footer > a {

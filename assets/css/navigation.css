@@ -146,7 +146,7 @@ header {
   justify-content: flex-start;
   transform: scale(0);
   transition: all 0.3s ease;
-  padding: 4rem 0;
+  padding: 7rem 0 0 0;
 }
 
 .nav-toggler {
@@ -154,7 +154,7 @@ header {
   height: auto;
   padding: 0.5rem 0;
   color: var(--gray-color);
-  font-size: var(--normal-font);
+  font-size: var(--h3-font);
   transition: all 0.3s ease;
 }
 

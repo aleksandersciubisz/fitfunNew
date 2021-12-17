@@ -43,6 +43,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .none600 {
+    display: none;
+  }
+
   header {
     position: fixed;
   }
