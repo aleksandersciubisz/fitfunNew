@@ -1,3 +1,11 @@
+// 2 additional nav buttons
+function scrollNav() {
+  const scrollNav = document.getElementById('nav-scroll')
+  if (this.scrollY >= 650) scrollNav.classList.add('show-nav-btn')
+  else scrollNav.classList.remove('show-nav-btn')
+}
+window.addEventListener('scroll', scrollNav)
+
 // Scroll Up icon
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up')
